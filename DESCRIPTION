@@ -2,7 +2,7 @@ Package: qmdtemplates
 Title: Templates for QMD Documents
 Version: 0.0.0.9000
 Authors@R: 
-    person(c("Kenji", "T."), "Hayashi", "kenjithayashi@gmail.com",
+    person(c("Kenji", "T."), "Hayashi", email = "kenjithayashi@gmail.com",
     role = c("aut", "cre"), comment = c(ORCID = "0000-0002-7598-1865"))
 Description: The purpose of this package is to enable convenient storage and
     loading of custom Quarto templates. This package is neither associated with
@@ -11,3 +11,6 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Imports: 
+    cli,
+    tibble
