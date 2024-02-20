@@ -24,7 +24,7 @@ Install `qmdtemplates` from GitHub:
 remotes::install_github("kthayashi/qmdtemplates")
 ```
 
-Alternatively, fork this GitHub repo to add your own templates.
+Alternatively, fork this GitHub repo to customize/add templates.
 
 ## Usage
 
