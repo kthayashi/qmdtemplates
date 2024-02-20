@@ -3,9 +3,9 @@
 #' `available()` allows the user to check the names of Quarto templates that are
 #' available to use via [`use()`].
 #'
-#' @param quiet If `TRUE`, suppress output messages.
+#' @param quiet Set to `TRUE` to suppress output messages.
 #'
-#' @return A data frame of available templates (returned silently).
+#' @return A data frame ([`tbl_df`]) of available templates (returned silently).
 #' @importFrom utils tail
 #' @export
 available <- function(quiet = FALSE) {

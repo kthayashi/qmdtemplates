@@ -7,8 +7,7 @@
 use(template, at = getwd(), as = paste0("template-", template))
 }
 \arguments{
-\item{template}{Name of the template to use. Use \code{\link[=available]{available()}} to check
-available templates.}
+\item{template}{Name of the template to use.}
 
 \item{at}{Path to the target directory.}
 
@@ -16,5 +15,6 @@ available templates.}
 }
 \description{
 \code{use()} allows the user to copy a Quarto template into a specified directory
-(\code{at}) with a specified name (\code{as}).
+(\code{at}) with a specified name (\code{as}). Use \code{\link[=available]{available()}} to check available
+templates.
 }

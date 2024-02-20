@@ -7,10 +7,10 @@
 available(quiet = FALSE)
 }
 \arguments{
-\item{quiet}{If \code{TRUE}, suppress output messages.}
+\item{quiet}{Set to \code{TRUE} to suppress output messages.}
 }
 \value{
-A data frame of available templates (returned silently).
+A data frame (\code{\link{tbl_df}}) of available templates (returned silently).
 }
 \description{
 \code{available()} allows the user to check the names of Quarto templates that are

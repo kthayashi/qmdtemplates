@@ -1,13 +1,14 @@
 #' Use a Quarto template
 #'
 #' `use()` allows the user to copy a Quarto template into a specified directory
-#' (`at`) with a specified name (`as`).
+#' (`at`) with a specified name (`as`). Use [`available()`] to check available
+#' templates.
 #'
-#' @param template Name of the template to use. Use [`available()`] to check
-#'    available templates.
+#' @param template Name of the template to use.
 #' @param at Path to the target directory.
 #' @param as Name of the target file.
 #'
+#' @importFrom rlang abort
 #' @export
 use <- function(template, at = getwd(), as = paste0("template-", template)) {
   # Get vector of available templates
@@ -35,5 +36,7 @@ use <- function(template, at = getwd(), as = paste0("template-", template)) {
   target_path <- paste(at, as, sep = "/")
   # Copy template to target
   invisible(file.copy(from = template_path, to = target_path, overwrite = TRUE))
-  cli::cli_alert_success("Template {.str {template}} copied to: {.file {target_path}}")
+  cli::cli_alert_success(
+    "Template {.str {template}} copied to: {.file {target_path}}"
+  )
 }
