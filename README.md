@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/kthayashi/qmdtemplates/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kthayashi/qmdtemplates/actions/workflows/R-CMD-check.yaml)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
@@ -29,7 +30,7 @@ Alternatively, fork this GitHub repo to add your own templates.
 
 `qmdtemplates` is comprised of two main functions, both of which are
 intended to be used interactively as part of one’s project workflow
-(analogous to the `[usethis](https://usethis.r-lib.org/)` package).
+(analogous to the [`usethis`](https://usethis.r-lib.org/) package).
 
 Check available templates with `qmdtemplates::available()`:
 
