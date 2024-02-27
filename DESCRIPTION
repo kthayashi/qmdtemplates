@@ -1,6 +1,6 @@
 Package: qmdtemplates
 Title: Templates for QMD Documents
-Version: 0.1.0.9000
+Version: 0.2.0
 Authors@R: 
     person(c("Kenji", "T."), "Hayashi", email = "kenjithayashi@gmail.com",
     role = c("aut", "cre"), comment = c(ORCID = "0000-0002-7598-1865"))

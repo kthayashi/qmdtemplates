@@ -1,4 +1,4 @@
-# qmdtemplates (development version)
+# qmdtemplates 0.2.0
 
 * Format TOC heading in manuscript.docx
 
