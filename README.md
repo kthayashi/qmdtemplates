@@ -29,8 +29,7 @@ Alternatively, fork this GitHub repo to customize/add templates.
 ## Usage
 
 `qmdtemplates` is comprised of two main functions, both of which are
-intended to be used interactively as part of one’s project workflow
-(analogous to the [`usethis`](https://usethis.r-lib.org/) package).
+intended to be used interactively as part of one’s project setup.
 
 Check available templates with `qmdtemplates::available()`:
 
@@ -46,7 +45,8 @@ Use a template (i.e. copy it into a target directory) with
 `qmdtemplates::use()`:
 
 ``` r
-qmdtemplates::use("manuscript.docx")
+qmdtemplates::use("manuscript.docx", at = "assets")
+#> ✔ Template "manuscript.docx" copied to: 'assets/template-manuscript.docx'
 ```
 
 ## Disclaimers
