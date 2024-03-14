@@ -1,4 +1,4 @@
-# qmdtemplates (development version)
+# qmdtemplates 0.3.0
 
 * Add page numbers to manuscript.docx
 
