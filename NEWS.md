@@ -1,4 +1,4 @@
-# qmdtemplates (development version)
+# qmdtemplates 0.4.0
 
 * Increase paragraph spacing around Title in manuscript.docx
 * Increase paragraph spacing around Front Matter in manuscript.docx
