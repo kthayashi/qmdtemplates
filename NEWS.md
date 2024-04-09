@@ -1,3 +1,5 @@
+# qmdtemplates (development version)
+
 # qmdtemplates 0.4.0
 
 * Increase paragraph spacing around Title in manuscript.docx
