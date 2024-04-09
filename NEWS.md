@@ -1,5 +1,12 @@
 # qmdtemplates (development version)
 
+manuscript.docx:
+
+* Refresh template by minimally modifying default Pandoc template
+* Center align title and subtitle
+* Increase font size for table and image caption to 12 pt
+* Add hanging indent to bibliography
+
 # qmdtemplates 0.4.0
 
 * Increase paragraph spacing around Title in manuscript.docx
