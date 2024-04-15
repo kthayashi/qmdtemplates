@@ -1,3 +1,9 @@
+# qmdtemplates (development version)
+
+manuscript.docx:
+
+* Increasing spacing before headings
+
 # qmdtemplates 0.5.0
 
 manuscript.docx:
