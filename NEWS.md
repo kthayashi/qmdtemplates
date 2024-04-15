@@ -1,4 +1,4 @@
-# qmdtemplates (development version)
+# qmdtemplates 0.6.0
 
 manuscript.docx:
 
